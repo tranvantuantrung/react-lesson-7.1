@@ -1,0 +1,30 @@
+.tab-menu {
+  display: flex;
+  max-width: 960px;
+  height: 92px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  
+}
+
+.tab-menu-item:first-child {
+  color: #8CDC52;
+  background-color: #ffffff;
+  border-top: 1px solid #8CDC52;
+  box-shadow: -3px 3px 3px rgba(221, 221, 221, 0.5);;
+}
+
+.tab-menu-item {
+  width: 20%;
+  background: rgba(221, 221, 221, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 1px rgba(221, 221, 221, 0.5);;
+}
+
+.tab-menu-item img {
+}
